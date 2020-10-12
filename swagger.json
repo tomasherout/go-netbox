@@ -9,7 +9,7 @@
     },
     "version": "2.9"
   },
-  "host": "localhost:8000",
+  "host": "127.0.0.1:8000",
   "schemes": [
     "http"
   ],
@@ -326,13 +326,6 @@
             "schema": {
               "$ref": "#/definitions/CircuitTermination"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -377,13 +370,6 @@
             "schema": {
               "$ref": "#/definitions/CircuitTermination"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -408,13 +394,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/CircuitTermination"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -710,13 +689,6 @@
             "schema": {
               "$ref": "#/definitions/CircuitType"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -761,13 +733,6 @@
             "schema": {
               "$ref": "#/definitions/CircuitType"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -792,13 +757,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/CircuitType"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -1346,13 +1304,6 @@
             "schema": {
               "$ref": "#/definitions/Circuit"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -1397,13 +1348,6 @@
             "schema": {
               "$ref": "#/definitions/Circuit"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -1428,13 +1372,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Circuit"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -1954,13 +1891,6 @@
             "schema": {
               "$ref": "#/definitions/Provider"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -2005,13 +1935,6 @@
             "schema": {
               "$ref": "#/definitions/Provider"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -2036,13 +1959,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Provider"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -2463,13 +2379,6 @@
             "schema": {
               "$ref": "#/definitions/Cable"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -2514,13 +2423,6 @@
             "schema": {
               "$ref": "#/definitions/Cable"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -2545,13 +2447,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Cable"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -3003,13 +2898,6 @@
             "schema": {
               "$ref": "#/definitions/ConsolePortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -3054,13 +2942,6 @@
             "schema": {
               "$ref": "#/definitions/ConsolePortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -3085,13 +2966,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ConsolePortTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -3520,13 +3394,6 @@
             "schema": {
               "$ref": "#/definitions/ConsolePort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -3571,13 +3438,6 @@
             "schema": {
               "$ref": "#/definitions/ConsolePort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -3602,13 +3462,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ConsolePort"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -3889,13 +3742,6 @@
             "schema": {
               "$ref": "#/definitions/ConsoleServerPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -3940,13 +3786,6 @@
             "schema": {
               "$ref": "#/definitions/ConsoleServerPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -3971,13 +3810,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ConsoleServerPortTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -4406,13 +4238,6 @@
             "schema": {
               "$ref": "#/definitions/ConsoleServerPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -4457,13 +4282,6 @@
             "schema": {
               "$ref": "#/definitions/ConsoleServerPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -4488,13 +4306,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ConsoleServerPort"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -4761,13 +4572,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceBayTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -4812,13 +4616,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceBayTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -4843,13 +4640,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/DeviceBayTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -5243,13 +5033,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceBay"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -5294,13 +5077,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceBay"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -5325,13 +5101,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/DeviceBay"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -5704,13 +5473,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceRole"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -5755,13 +5517,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceRole"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -5786,13 +5541,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/DeviceRole"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -6354,13 +6102,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceType"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -6405,13 +6146,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceType"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -6436,13 +6170,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/DeviceType"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -7382,13 +7109,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceWithConfigContext"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -7433,13 +7153,6 @@
             "schema": {
               "$ref": "#/definitions/DeviceWithConfigContext"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -7464,13 +7177,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/DeviceWithConfigContext"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -7785,13 +7491,6 @@
             "schema": {
               "$ref": "#/definitions/FrontPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -7836,13 +7535,6 @@
             "schema": {
               "$ref": "#/definitions/FrontPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -7867,13 +7559,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/FrontPortTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -8288,13 +7973,6 @@
             "schema": {
               "$ref": "#/definitions/FrontPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -8339,13 +8017,6 @@
             "schema": {
               "$ref": "#/definitions/FrontPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -8370,13 +8041,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/FrontPort"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -8758,13 +8422,6 @@
             "schema": {
               "$ref": "#/definitions/InterfaceTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -8809,13 +8466,6 @@
             "schema": {
               "$ref": "#/definitions/InterfaceTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -8840,13 +8490,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/InterfaceTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -9436,13 +9079,6 @@
             "schema": {
               "$ref": "#/definitions/Interface"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -9487,13 +9123,6 @@
             "schema": {
               "$ref": "#/definitions/Interface"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -9518,13 +9147,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Interface"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -10098,13 +9720,6 @@
             "schema": {
               "$ref": "#/definitions/InventoryItem"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -10149,13 +9764,6 @@
             "schema": {
               "$ref": "#/definitions/InventoryItem"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -10180,13 +9788,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/InventoryItem"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -10552,13 +10153,6 @@
             "schema": {
               "$ref": "#/definitions/Manufacturer"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -10603,13 +10197,6 @@
             "schema": {
               "$ref": "#/definitions/Manufacturer"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -10634,13 +10221,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Manufacturer"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -11104,13 +10684,6 @@
             "schema": {
               "$ref": "#/definitions/Platform"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -11155,13 +10728,6 @@
             "schema": {
               "$ref": "#/definitions/Platform"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -11186,13 +10752,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Platform"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -11904,13 +11463,6 @@
             "schema": {
               "$ref": "#/definitions/PowerFeed"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -11955,13 +11507,6 @@
             "schema": {
               "$ref": "#/definitions/PowerFeed"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -11986,13 +11531,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/PowerFeed"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -12260,13 +11798,6 @@
             "schema": {
               "$ref": "#/definitions/PowerOutletTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -12311,13 +11842,6 @@
             "schema": {
               "$ref": "#/definitions/PowerOutletTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -12342,13 +11866,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/PowerOutletTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -12791,13 +12308,6 @@
             "schema": {
               "$ref": "#/definitions/PowerOutlet"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -12842,13 +12352,6 @@
             "schema": {
               "$ref": "#/definitions/PowerOutlet"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -12873,13 +12376,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/PowerOutlet"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -13216,13 +12712,6 @@
             "schema": {
               "$ref": "#/definitions/PowerPanel"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -13267,13 +12756,6 @@
             "schema": {
               "$ref": "#/definitions/PowerPanel"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -13298,13 +12780,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/PowerPanel"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -13642,13 +13117,6 @@
             "schema": {
               "$ref": "#/definitions/PowerPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -13693,13 +13161,6 @@
             "schema": {
               "$ref": "#/definitions/PowerPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -13724,13 +13185,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/PowerPortTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -14243,13 +13697,6 @@
             "schema": {
               "$ref": "#/definitions/PowerPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -14294,13 +13741,6 @@
             "schema": {
               "$ref": "#/definitions/PowerPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -14325,13 +13765,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/PowerPort"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -14808,13 +14241,6 @@
             "schema": {
               "$ref": "#/definitions/RackGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -14859,13 +14285,6 @@
             "schema": {
               "$ref": "#/definitions/RackGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -14890,13 +14309,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/RackGroup"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -15262,13 +14674,6 @@
             "schema": {
               "$ref": "#/definitions/RackReservation"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -15313,13 +14718,6 @@
             "schema": {
               "$ref": "#/definitions/RackReservation"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -15344,13 +14742,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/RackReservation"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -15716,13 +15107,6 @@
             "schema": {
               "$ref": "#/definitions/RackRole"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -15767,13 +15151,6 @@
             "schema": {
               "$ref": "#/definitions/RackRole"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -15798,13 +15175,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/RackRole"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -16590,13 +15960,6 @@
             "schema": {
               "$ref": "#/definitions/Rack"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -16641,13 +16004,6 @@
             "schema": {
               "$ref": "#/definitions/Rack"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -16672,13 +16028,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Rack"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -17075,13 +16424,6 @@
             "schema": {
               "$ref": "#/definitions/RearPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -17126,13 +16468,6 @@
             "schema": {
               "$ref": "#/definitions/RearPortTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -17157,13 +16492,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/RearPortTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -17620,13 +16948,6 @@
             "schema": {
               "$ref": "#/definitions/RearPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -17671,13 +16992,6 @@
             "schema": {
               "$ref": "#/definitions/RearPort"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -17702,13 +17016,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/RearPort"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -18129,13 +17436,6 @@
             "schema": {
               "$ref": "#/definitions/Region"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -18180,13 +17480,6 @@
             "schema": {
               "$ref": "#/definitions/Region"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -18211,13 +17504,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Region"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -19073,13 +18359,6 @@
             "schema": {
               "$ref": "#/definitions/Site"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -19124,13 +18403,6 @@
             "schema": {
               "$ref": "#/definitions/Site"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -19155,13 +18427,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Site"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -19512,13 +18777,6 @@
             "schema": {
               "$ref": "#/definitions/VirtualChassis"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -19563,13 +18821,6 @@
             "schema": {
               "$ref": "#/definitions/VirtualChassis"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -19594,13 +18845,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/VirtualChassis"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -20096,13 +19340,6 @@
             "schema": {
               "$ref": "#/definitions/ConfigContext"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -20147,13 +19384,6 @@
             "schema": {
               "$ref": "#/definitions/ConfigContext"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -20178,13 +19408,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ConfigContext"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -20431,13 +19654,6 @@
             "schema": {
               "$ref": "#/definitions/ExportTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -20482,13 +19698,6 @@
             "schema": {
               "$ref": "#/definitions/ExportTemplate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -20513,13 +19722,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ExportTemplate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -20766,13 +19968,6 @@
             "schema": {
               "$ref": "#/definitions/Graph"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -20817,13 +20012,6 @@
             "schema": {
               "$ref": "#/definitions/Graph"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -20848,13 +20036,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Graph"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -21129,13 +20310,6 @@
             "schema": {
               "$ref": "#/definitions/ImageAttachment"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -21180,13 +20354,6 @@
             "schema": {
               "$ref": "#/definitions/ImageAttachment"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -21211,13 +20378,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ImageAttachment"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -21522,13 +20682,6 @@
             "type": "string"
           },
           {
-            "name": "user",
-            "in": "query",
-            "description": "",
-            "required": false,
-            "type": "string"
-          },
-          {
             "name": "user_name",
             "in": "query",
             "description": "",
@@ -21585,6 +20738,20 @@
             "type": "string"
           },
           {
+            "name": "user_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "user",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "type": "string"
+          },
+          {
             "name": "id__n",
             "in": "query",
             "description": "",
@@ -21614,13 +20781,6 @@
           },
           {
             "name": "id__gt",
-            "in": "query",
-            "description": "",
-            "required": false,
-            "type": "string"
-          },
-          {
-            "name": "user__n",
             "in": "query",
             "description": "",
             "required": false,
@@ -21802,6 +20962,20 @@
             "type": "string"
           },
           {
+            "name": "user_id__n",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "user__n",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "type": "string"
+          },
+          {
             "name": "limit",
             "in": "query",
             "description": "Number of results to return per page.",
@@ -21929,13 +21103,6 @@
         "responses": {
           "201": {
             "description": ""
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -22325,13 +21492,6 @@
             "schema": {
               "$ref": "#/definitions/Tag"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -22376,13 +21536,6 @@
             "schema": {
               "$ref": "#/definitions/Tag"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -22407,13 +21560,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Tag"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -22709,13 +21855,6 @@
             "schema": {
               "$ref": "#/definitions/Aggregate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -22760,13 +21899,6 @@
             "schema": {
               "$ref": "#/definitions/Aggregate"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -22791,13 +21923,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Aggregate"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -23310,13 +22435,6 @@
             "schema": {
               "$ref": "#/definitions/IPAddress"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -23361,13 +22479,6 @@
             "schema": {
               "$ref": "#/definitions/IPAddress"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -23392,13 +22503,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/IPAddress"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -23876,13 +22980,6 @@
             "schema": {
               "$ref": "#/definitions/Prefix"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -23927,13 +23024,6 @@
             "schema": {
               "$ref": "#/definitions/Prefix"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -23958,13 +23048,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Prefix"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -24032,17 +23115,7 @@
           "201": {
             "description": "",
             "schema": {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/AvailableIP"
-              }
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
+              "$ref": "#/definitions/AvailableIP"
             }
           }
         },
@@ -24100,13 +23173,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Prefix"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -24466,13 +23532,6 @@
             "schema": {
               "$ref": "#/definitions/RIR"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -24517,13 +23576,6 @@
             "schema": {
               "$ref": "#/definitions/RIR"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -24548,13 +23600,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/RIR"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -24850,13 +23895,6 @@
             "schema": {
               "$ref": "#/definitions/Role"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -24901,13 +23939,6 @@
             "schema": {
               "$ref": "#/definitions/Role"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -24932,13 +23963,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Role"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -25332,13 +24356,6 @@
             "schema": {
               "$ref": "#/definitions/Service"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -25383,13 +24400,6 @@
             "schema": {
               "$ref": "#/definitions/Service"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -25414,13 +24424,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Service"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -25842,13 +24845,6 @@
             "schema": {
               "$ref": "#/definitions/VLANGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -25893,13 +24889,6 @@
             "schema": {
               "$ref": "#/definitions/VLANGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -25924,13 +24913,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/VLANGroup"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -26436,13 +25418,6 @@
             "schema": {
               "$ref": "#/definitions/VLAN"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -26487,13 +25462,6 @@
             "schema": {
               "$ref": "#/definitions/VLAN"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -26518,13 +25486,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/VLAN"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -26939,13 +25900,6 @@
             "schema": {
               "$ref": "#/definitions/VRF"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -26990,13 +25944,6 @@
             "schema": {
               "$ref": "#/definitions/VRF"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -27021,13 +25968,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/VRF"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -27083,13 +26023,6 @@
         "responses": {
           "201": {
             "description": ""
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -27363,13 +26296,6 @@
             "schema": {
               "$ref": "#/definitions/SecretRole"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -27414,13 +26340,6 @@
             "schema": {
               "$ref": "#/definitions/SecretRole"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -27445,13 +26364,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/SecretRole"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -27789,13 +26701,6 @@
             "schema": {
               "$ref": "#/definitions/Secret"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -27840,13 +26745,6 @@
             "schema": {
               "$ref": "#/definitions/Secret"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -27871,13 +26769,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Secret"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -28271,13 +27162,6 @@
             "schema": {
               "$ref": "#/definitions/TenantGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -28322,13 +27206,6 @@
             "schema": {
               "$ref": "#/definitions/TenantGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -28353,13 +27230,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/TenantGroup"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -28739,13 +27609,6 @@
             "schema": {
               "$ref": "#/definitions/Tenant"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -28790,13 +27653,6 @@
             "schema": {
               "$ref": "#/definitions/Tenant"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -28821,13 +27677,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Tenant"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -29053,13 +27902,6 @@
             "schema": {
               "$ref": "#/definitions/Group"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -29104,13 +27946,6 @@
             "schema": {
               "$ref": "#/definitions/Group"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -29135,13 +27970,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Group"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -29437,13 +28265,6 @@
             "schema": {
               "$ref": "#/definitions/ObjectPermission"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -29488,13 +28309,6 @@
             "schema": {
               "$ref": "#/definitions/ObjectPermission"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -29519,13 +28333,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ObjectPermission"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -30003,13 +28810,6 @@
             "schema": {
               "$ref": "#/definitions/User"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -30054,13 +28854,6 @@
             "schema": {
               "$ref": "#/definitions/User"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -30085,13 +28878,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/User"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -30457,13 +29243,6 @@
             "schema": {
               "$ref": "#/definitions/ClusterGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -30508,13 +29287,6 @@
             "schema": {
               "$ref": "#/definitions/ClusterGroup"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -30539,13 +29311,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ClusterGroup"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -30911,13 +29676,6 @@
             "schema": {
               "$ref": "#/definitions/ClusterType"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -30962,13 +29720,6 @@
             "schema": {
               "$ref": "#/definitions/ClusterType"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -30993,13 +29744,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/ClusterType"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -31449,13 +30193,6 @@
             "schema": {
               "$ref": "#/definitions/Cluster"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -31500,13 +30237,6 @@
             "schema": {
               "$ref": "#/definitions/Cluster"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -31531,13 +30261,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Cluster"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -31952,13 +30675,6 @@
             "schema": {
               "$ref": "#/definitions/VMInterface"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -32003,13 +30719,6 @@
             "schema": {
               "$ref": "#/definitions/VMInterface"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -32034,13 +30743,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/VMInterface"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -32329,6 +31031,13 @@
           },
           {
             "name": "mac_address",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "has_primary_ip",
             "in": "query",
             "description": "",
             "required": false,
@@ -32818,13 +31527,6 @@
             "schema": {
               "$ref": "#/definitions/VirtualMachineWithConfigContext"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -32869,13 +31571,6 @@
             "schema": {
               "$ref": "#/definitions/VirtualMachineWithConfigContext"
             }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
-            }
           }
         },
         "tags": [
@@ -32900,13 +31595,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/VirtualMachineWithConfigContext"
-            }
-          },
-          "default": {
-            "description": "",
-            "schema": {
-              "type": "object",
-              "additionalProperties": true
             }
           }
         },
@@ -33656,8 +32344,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -33764,8 +32451,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -33853,8 +32539,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -34038,8 +32723,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -34166,8 +32850,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -34652,8 +33335,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -34805,8 +33487,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -35045,8 +33726,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -35327,8 +34007,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -35421,8 +34100,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -35552,8 +34230,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -35605,8 +34282,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -35773,8 +34449,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -35888,8 +34563,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -36086,8 +34760,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -36269,8 +34942,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -36436,7 +35108,7 @@
           "title": "Rear port position",
           "type": "integer",
           "default": 1,
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -36513,7 +35185,7 @@
           "title": "Rear port position",
           "type": "integer",
           "default": 1,
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -36651,7 +35323,7 @@
           "title": "Rear port position",
           "type": "integer",
           "default": 1,
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -36666,8 +35338,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -36738,7 +35409,7 @@
           "title": "Rear port position",
           "type": "integer",
           "default": 1,
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -36753,8 +35424,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -37478,8 +36148,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "count_ipaddresses": {
           "title": "Count ipaddresses",
@@ -37684,8 +36353,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "count_ipaddresses": {
           "title": "Count ipaddresses",
@@ -37767,8 +36435,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -37848,8 +36515,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -38309,8 +36975,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -38518,8 +37183,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -38637,8 +37301,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -39408,8 +38071,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -39579,8 +38241,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -39663,8 +38324,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "powerfeed_count": {
           "title": "Powerfeed count",
@@ -39710,8 +38370,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "powerfeed_count": {
           "title": "Powerfeed count",
@@ -40251,8 +38910,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -40453,8 +39111,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -40516,8 +39173,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -40820,8 +39476,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -40998,8 +39653,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -41170,7 +39824,7 @@
         "positions": {
           "title": "Positions",
           "type": "integer",
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -41241,7 +39895,7 @@
         "positions": {
           "title": "Positions",
           "type": "integer",
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -41342,7 +39996,7 @@
         "positions": {
           "title": "Positions",
           "type": "integer",
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -41357,8 +40011,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -41423,7 +40076,7 @@
         "positions": {
           "title": "Positions",
           "type": "integer",
-          "maximum": 64,
+          "maximum": 1024,
           "minimum": 1
         },
         "description": {
@@ -41438,8 +40091,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -41733,8 +40385,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -41909,8 +40560,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -41996,8 +40646,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "member_count": {
           "title": "Member count",
@@ -42043,8 +40692,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "member_count": {
           "title": "Member count",
@@ -42985,8 +41633,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -43053,8 +41700,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -43239,7 +41885,8 @@
         },
         "assigned_object_type": {
           "title": "Assigned object type",
-          "type": "string"
+          "type": "string",
+          "x-nullable": true
         },
         "assigned_object_id": {
           "title": "Assigned object id",
@@ -43278,8 +41925,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -43367,7 +42013,8 @@
         },
         "assigned_object_type": {
           "title": "Assigned object type",
-          "type": "string"
+          "type": "string",
+          "x-nullable": true
         },
         "assigned_object_id": {
           "title": "Assigned object id",
@@ -43410,8 +42057,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -43581,8 +42227,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -43681,8 +42326,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -43975,8 +42619,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -44063,8 +42706,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -44298,8 +42940,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "display_name": {
           "title": "Display name",
@@ -44398,8 +43039,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "display_name": {
           "title": "Display name",
@@ -44466,8 +43106,7 @@
         "enforce_unique": {
           "title": "Enforce unique space",
           "description": "Prevent duplicate prefixes/IP addresses within this VRF",
-          "type": "boolean",
-          "x-nullable": true
+          "type": "boolean"
         },
         "description": {
           "title": "Description",
@@ -44478,8 +43117,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "display_name": {
           "title": "Display name",
@@ -44553,8 +43191,7 @@
         "enforce_unique": {
           "title": "Enforce unique space",
           "description": "Prevent duplicate prefixes/IP addresses within this VRF",
-          "type": "boolean",
-          "x-nullable": true
+          "type": "boolean"
         },
         "description": {
           "title": "Description",
@@ -44565,8 +43202,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "display_name": {
           "title": "Display name",
@@ -44731,8 +43367,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -44800,8 +43435,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -44976,8 +43610,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -45098,8 +43731,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -45675,8 +44307,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -45758,8 +44389,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
@@ -45878,8 +44508,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -45958,8 +44587,7 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         }
       }
     },
@@ -46077,15 +44705,12 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
           "type": "object",
-          "default": {
-            "InstanceUuid": null
-          }
+          "default": {}
         },
         "config_context": {
           "title": "Config context",
@@ -46218,15 +44843,12 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/NestedTag"
-          },
-          "x-omitempty": true
+          }
         },
         "custom_fields": {
           "title": "Custom fields",
           "type": "object",
-          "default": {
-            "InstanceUuid": null
-          }
+          "default": {}
         },
         "config_context": {
           "title": "Config context",

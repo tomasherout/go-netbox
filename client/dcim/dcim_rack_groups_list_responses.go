@@ -31,7 +31,7 @@ import (
 	"github.com/go-openapi/swag"
 	"github.com/go-openapi/validate"
 
-	"github.com/netbox-community/go-netbox/models"
+	"github.com/tomasherout/go-netbox/models"
 )
 
 // DcimRackGroupsListReader is a Reader for the DcimRackGroupsList structure.

@@ -31,7 +31,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/netbox-community/go-netbox/models"
+	"github.com/tomasherout/go-netbox/models"
 )
 
 // NewDcimDeviceBaysPartialUpdateParams creates a new DcimDeviceBaysPartialUpdateParams object

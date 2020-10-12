@@ -155,7 +155,7 @@ type IpamPrefixesListParams struct {
 	/*Statusn*/
 	Statusn *string
 	/*Tag*/
-	Tag *string
+	Tag []string
 	/*Tagn*/
 	Tagn *string
 	/*Tenant*/
@@ -628,13 +628,13 @@ func (o *IpamPrefixesListParams) SetStatusn(statusn *string) {
 }
 
 // WithTag adds the tag to the ipam prefixes list params
-func (o *IpamPrefixesListParams) WithTag(tag *string) *IpamPrefixesListParams {
+func (o *IpamPrefixesListParams) WithTag(tag []string) *IpamPrefixesListParams {
 	o.SetTag(tag)
 	return o
 }
 
 // SetTag adds the tag to the ipam prefixes list params
-func (o *IpamPrefixesListParams) SetTag(tag *string) {
+func (o *IpamPrefixesListParams) SetTag(tag []string) {
 	o.Tag = tag
 }
 
@@ -1420,20 +1420,12 @@ func (o *IpamPrefixesListParams) WriteToRequest(r runtime.ClientRequest, reg str
 
 	}
 
-	if o.Tag != nil {
+	valuesTag := o.Tag
 
-		// query param tag
-		var qrTag string
-		if o.Tag != nil {
-			qrTag = *o.Tag
-		}
-		qTag := qrTag
-		if qTag != "" {
-			if err := r.SetQueryParam("tag", qTag); err != nil {
-				return err
-			}
-		}
-
+	joinedTag := swag.JoinByFormat(valuesTag, "multi")
+	// query array param tag
+	if err := r.SetQueryParam("tag", joinedTag...); err != nil {
+		return err
 	}
 
 	if o.Tagn != nil {

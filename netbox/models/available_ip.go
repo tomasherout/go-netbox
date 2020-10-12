@@ -37,10 +37,6 @@ type AvailableIP struct {
 	// Min Length: 1
 	Address string `json:"address,omitempty"`
 
-	// Family
-	// Read Only: true
-	Family int64 `json:"family,omitempty"`
-
 	// vrf
 	Vrf *NestedVRF `json:"vrf,omitempty"`
 }

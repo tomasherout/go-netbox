@@ -42350,11 +42350,6 @@
     "AvailableIP": {
       "type": "object",
       "properties": {
-        "family": {
-          "title": "Family",
-          "type": "integer",
-          "readOnly": true
-        },
         "address": {
           "title": "Address",
           "type": "string",

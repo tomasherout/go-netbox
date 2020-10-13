@@ -42362,6 +42362,11 @@
         },
         "vrf": {
           "$ref": "#/definitions/NestedVRF"
+        },
+        "id": {
+          "title": "ID",
+          "type": "integer",
+          "readOnly": true
         }
       }
     },
